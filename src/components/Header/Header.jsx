@@ -22,22 +22,39 @@ const Header = () => {
          onClick={()=>setmenuopened(false)}
          to='home'
          activeClass='active'
-          span={true}
+          spy={true}
           smooth={true}
          >Home</Link>
         </li>
-        <li onClick={()=>setmenuopened(false)}>
-          Programs
+        <li>
+        <Link
+          onClick={()=>setmenuopened(false)}
+          to='programs'
+          spy={true}
+          smooth={true}
+          >Programs</Link>
         </li>
-        <li onClick={()=>setmenuopened(false)}>
-          Why us
+        <li>
+        <Link
+          onClick={()=>setmenuopened(false)}
+          to='reasons'
+          spy={true}
+          smooth={true}
+          >Why Us</Link>
         </li>
-        <li onClick={()=>setmenuopened(false)}>Plans</li>
+        <li >
+        <Link
+          onClick={()=>setmenuopened(false)}
+          to='plans'
+          spy={true}
+          smooth={true}
+          >Plans</Link>
+        </li>
         <li >
           <Link
           onClick={()=>setmenuopened(false)}
           to='testimonials'
-          span={true}
+          spy={true}
           smooth={true}
           >Testimonials</Link>
         </li>

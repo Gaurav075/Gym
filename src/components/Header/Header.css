@@ -1,11 +1,15 @@
 .Header{
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
 }
 
 .logo{
     width: 10rem;
     height: 3rem;
+    position: sticky;
 }
 
 .header-menu{
@@ -13,6 +17,7 @@
     display: flex;
     gap: 2rem;
     color : white;
+    /* position: sticky; */
 }
 
 
